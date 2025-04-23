@@ -1,9 +1,3 @@
-
-# final_analysis_cutoff_roc_annotated.py
-# This script replicates the analysis described in the Results section of the manuscript
-# "Microvascular Sim Box F_edit.docx", including AUC, cutoff, and accuracy calculation
-# for each metric.
-
 import pandas as pd
 import numpy as np
 from sklearn.metrics import roc_curve, roc_auc_score
